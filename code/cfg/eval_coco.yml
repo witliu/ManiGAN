@@ -1,7 +1,7 @@
 CONFIG_NAME: 'ManiGAN'
 
 DATASET_NAME: 'coco'
-DATA_DIR: '../data/coco'
+DATA_DIR: 'C:/Users/Lenovo/Desktop/ManiGAN-master/data/coco'
 GPU_ID: '3'
 WORKERS: 1
 
@@ -12,11 +12,11 @@ TREE:
 
 TRAIN:
     FLAG: False
-    NET_G: '../models/coco_Main.pth'
-    NET_C: '../models/coco_DCM.pth'
+    NET_G: 'C:/Users/Lenovo/Desktop/ManiGAN-master/models/coco_Main.pth'
+    NET_C: 'C:/Users/Lenovo/Desktop/ManiGAN-master/models/coco_DCM.pth'
     B_NET_D: False
     BATCH_SIZE: 2
-    NET_E: '../DAMSMencoders/coco/text_encoder.pth'
+    NET_E: 'C:/Users/Lenovo/Desktop/ManiGAN-master/DAMSMencoders/coco/text_encoder.pth'
 
 
 GAN:
